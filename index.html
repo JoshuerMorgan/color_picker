@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/106eb59b68.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Color Picker</h1>
+    <div class="container">
+        <div class="top-section">
+           <form action="#" class="form-style">
+            <input type="color" id="color-input">
+            <select class="pad-10" id="dropdown" for="colors">
+                <option> Monochrome</option>
+                <option> Monochrome-dark</option>
+                <option> Monochrome-light</option>
+                <option> Analogic</option>
+                <option> Complement</option>
+                <option> Analogic-complement</option>
+                <option> Triad</option>
+                <option> quad</option>
+            </select>
+            <input class="pad-10" type="submit" value="Get color scheme" id="submit-btn">
+           </form>
+        </div>
+        <div class="color-section">
+            <div id="section1"  >
+                <div id="color1" class="pretext">Pick a color and your prefered color scheme </div>
+                
+                <!-- <p id="color1-hex" class="pretext">click to copy Hex value   <i class="fa-solid fa-copy"> </i> </p> -->
+            </div>
+        </div>
+        
+    </div>
+
+    <script src="app.js"> </script>
+</body>
+</html>
